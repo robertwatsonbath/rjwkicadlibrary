@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD5680
+D 18-bit nanoDAC
+$ENDCMP
+#
+$CMP ADR423
+D Low noise 10mA voltage reference
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADR420_421_423_425.pdf
+$ENDCMP
+#
+$CMP LTC6082
+D Quad precision op-amp
+F http://cds.linear.com/docs/en/datasheet/60812fd.pdf
+$ENDCMP
+#
+$CMP VREF
+K POWER, PWR
+$ENDCMP
+#
+#End Doc Library
