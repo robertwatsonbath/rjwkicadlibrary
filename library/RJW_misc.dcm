@@ -4,9 +4,21 @@ $CMP AD5680
 D 18-bit nanoDAC
 $ENDCMP
 #
+$CMP ADR420
+D Low noise 10mA 2.048V voltage reference
+$ENDCMP
+#
+$CMP ADR421
+D Low noise 10mA 2.5V voltage reference
+$ENDCMP
+#
 $CMP ADR423
-D Low noise 10mA voltage reference
+D Low noise 10mA 3.0V voltage reference
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADR420_421_423_425.pdf
+$ENDCMP
+#
+$CMP ADR425
+D Low noise 10mA 5.0V voltage reference
 $ENDCMP
 #
 $CMP LTC6082
