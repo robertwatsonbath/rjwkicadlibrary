@@ -40,6 +40,10 @@ $CMP ADP150-5.0
 D Analog Devices ultra-low-noise LDO
 $ENDCMP
 #
+$CMP LT1761-X
+D Linear Tech ultra-low-noise LDO
+$ENDCMP
+#
 $CMP LT5534
 D Linear Technology 2.7GHz log detector
 $ENDCMP
