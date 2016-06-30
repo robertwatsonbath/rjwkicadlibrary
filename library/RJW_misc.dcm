@@ -26,7 +26,7 @@ D Quad precision op-amp
 F http://cds.linear.com/docs/en/datasheet/60812fd.pdf
 $ENDCMP
 #
-$CMP SPO256
+$CMP SP0256
 D GI-SPO256-AL2
 K Speech synthesizer
 $ENDCMP
