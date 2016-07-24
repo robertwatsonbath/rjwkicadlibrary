@@ -4,6 +4,11 @@ $CMP AD5680
 D 18-bit nanoDAC
 $ENDCMP
 #
+$CMP ADN8834
+D TEC controller
+K TEC, peltier
+$ENDCMP
+#
 $CMP ADR420
 D Low noise 10mA 2.048V voltage reference
 $ENDCMP
