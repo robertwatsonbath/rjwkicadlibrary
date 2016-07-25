@@ -4,6 +4,10 @@ $CMP AD5680
 D 18-bit nanoDAC
 $ENDCMP
 #
+$CMP AD7991
+D 12-bit, 4-channel DAC in SOT23-8
+$ENDCMP
+#
 $CMP ADN8834
 D TEC controller
 K TEC, peltier
