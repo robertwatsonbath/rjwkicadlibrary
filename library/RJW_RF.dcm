@@ -40,6 +40,11 @@ $CMP ADP150-5.0
 D Analog Devices ultra-low-noise LDO
 $ENDCMP
 #
+$CMP LMX2487
+D Texas Instruments, Dual PLL: 1-6GHz Frac-N, 3GHz Int-N.
+K PLL
+$ENDCMP
+#
 $CMP LT1761-X
 D Linear Tech ultra-low-noise LDO
 $ENDCMP
