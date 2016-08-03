@@ -1,5 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +3V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3VA
+K POWER, PWR
+$ENDCMP
+#
 $CMP AD5680
 D 18-bit nanoDAC
 $ENDCMP
