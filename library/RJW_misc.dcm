@@ -53,6 +53,11 @@ D GI-SPO256-AL2
 K Speech synthesizer
 $ENDCMP
 #
+$CMP VCSEL-795
+D Laser diode (second gen)
+K TO-46
+$ENDCMP
+#
 $CMP VREF
 K POWER, PWR
 $ENDCMP
