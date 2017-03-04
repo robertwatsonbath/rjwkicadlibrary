@@ -62,4 +62,8 @@ $CMP VREF
 K POWER, PWR
 $ENDCMP
 #
+$CMP XTALOSC
+D Crystal clock oscillator module
+$ENDCMP
+#
 #End Doc Library
