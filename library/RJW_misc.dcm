@@ -60,6 +60,11 @@ K op amp
 F http://cds.linear.com/docs/en/datasheet/624012fe.pdf
 $ENDCMP
 #
+$CMP S597X
+D Photodiode
+K photodiode diode opto
+$ENDCMP
+#
 $CMP SP0256
 D GI-SPO256-AL2
 K Speech synthesizer
