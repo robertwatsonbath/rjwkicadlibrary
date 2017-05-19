@@ -4,4 +4,9 @@ $CMP GVA-123+
 D 10MHz-12GHz amplifier
 $ENDCMP
 #
+$CMP PMA2-33LN+
+D 0.4-3.0 GHz E-PHEMT LNA 0.38dB NF
+F https://www.minicircuits.com/pdfs/PMA2-33LN+.pdf
+$ENDCMP
+#
 #End Doc Library
