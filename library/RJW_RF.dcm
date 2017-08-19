@@ -16,6 +16,11 @@ $CMP ADL5320
 D Analog Devices 250mW RF driver
 $ENDCMP
 #
+$CMP ADL5330
+D Variable gain RF amplifier 3GHz
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADL5330.pdf
+$ENDCMP
+#
 $CMP ADL5375
 D Analog Devices wideband I/Q modulator
 $ENDCMP
@@ -40,6 +45,10 @@ $CMP ADP150-5.0
 D Analog Devices ultra-low-noise LDO
 $ENDCMP
 #
+$CMP BFCN-1575+
+D Minicircuits, LTCC 1.575GHz BPF
+$ENDCMP
+#
 $CMP LMX2487
 D Texas Instruments, Dual PLL: 1-6GHz Frac-N, 3GHz Int-N.
 K PLL
@@ -51,6 +60,11 @@ $ENDCMP
 #
 $CMP LT5534
 D Linear Technology 2.7GHz log detector
+$ENDCMP
+#
+$CMP MGA-62563
+D Avago/Broadcom, current adjustable LNA, 0.1-3.5GHz, 3-5V
+K Agilent, Avago, Broadcom
 $ENDCMP
 #
 $CMP OP184
