@@ -9,4 +9,9 @@ D 0.4-3.0 GHz E-PHEMT LNA 0.38dB NF
 F https://www.minicircuits.com/pdfs/PMA2-33LN+.pdf
 $ENDCMP
 #
+$CMP TC1-1-13MX+
+D Current-mode balun 4.5MHz-3GHz
+F https://ww2.minicircuits.com/pdfs/TC1-1-13MX+.pdf
+$ENDCMP
+#
 #End Doc Library

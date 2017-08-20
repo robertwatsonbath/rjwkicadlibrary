@@ -4,6 +4,12 @@ $CMP AD8302
 D Analog Devices phase/gain detector
 $ENDCMP
 #
+$CMP AD8318
+D Log amplifier 70dB 1MHz-8GHz
+K log amp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8318.pdf
+$ENDCMP
+#
 $CMP ADF4158
 D Analog Devices ADF4158 synthesizer
 $ENDCMP
