@@ -68,6 +68,11 @@ K op amp
 F http://cds.linear.com/docs/en/datasheet/624012fe.pdf
 $ENDCMP
 #
+$CMP LTC6248
+D Quad 180MHz low-power op-amp
+F http://cds.linear.com/docs/en/datasheet/624678fb.pdf
+$ENDCMP
+#
 $CMP LTC6702
 D Linear Technologies dual comparator 3.5MHz
 $ENDCMP
