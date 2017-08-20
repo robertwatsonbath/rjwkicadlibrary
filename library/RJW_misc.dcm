@@ -8,12 +8,16 @@ $CMP +3VA
 K POWER, PWR
 $ENDCMP
 #
+$CMP AD5662
+D 16-bit nanoDAC
+$ENDCMP
+#
 $CMP AD5680
 D 18-bit nanoDAC
 $ENDCMP
 #
 $CMP AD7991
-D 12-bit, 4-channel DAC in SOT23-8
+D 12-bit, 4-channel ADC in SOT23-8
 $ENDCMP
 #
 $CMP ADN8834
