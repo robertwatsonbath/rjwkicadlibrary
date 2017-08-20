@@ -38,6 +38,10 @@ $CMP ADR425
 D Low noise 10mA 5.0V voltage reference
 $ENDCMP
 #
+$CMP Delayline
+D Delayline 50R
+$ENDCMP
+#
 $CMP LT3080
 D Adjustable 1.1A LDO in DFN-8 and MSOP-8
 K regulator
