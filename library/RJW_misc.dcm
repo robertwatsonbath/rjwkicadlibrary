@@ -68,9 +68,17 @@ K op amp
 F http://cds.linear.com/docs/en/datasheet/624012fe.pdf
 $ENDCMP
 #
+$CMP LTC6702
+D Linear Technologies dual comparator 3.5MHz
+$ENDCMP
+#
 $CMP S597X
 D Photodiode
 K photodiode diode opto
+$ENDCMP
+#
+$CMP SMA
+D Generic SMA connector
 $ENDCMP
 #
 $CMP SP0256
