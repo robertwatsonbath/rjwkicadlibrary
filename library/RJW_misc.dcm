@@ -74,7 +74,8 @@ F http://cds.linear.com/docs/en/datasheet/624678fb.pdf
 $ENDCMP
 #
 $CMP LTC6702
-D Linear Technologies dual comparator 3.5MHz
+D Dual low-power comparator
+F http://cds.linear.com/docs/en/datasheet/6702fa.pdf
 $ENDCMP
 #
 $CMP S597X
