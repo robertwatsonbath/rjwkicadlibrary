@@ -16,6 +16,12 @@ $CMP AD5680
 D 18-bit nanoDAC
 $ENDCMP
 #
+$CMP AD7980
+D 1Msps 16-bit differential input ADC
+K ADC
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7980.pdf
+$ENDCMP
+#
 $CMP AD7991
 D 12-bit, 4-channel ADC in SOT23-8
 $ENDCMP
