@@ -8,6 +8,12 @@ $CMP +3VA
 K POWER, PWR
 $ENDCMP
 #
+$CMP AD4005
+D 1Msps 16-bit differential input ADC Vdd=1.8V
+K ADC
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD4001-4005.pdf
+$ENDCMP
+#
 $CMP AD5662
 D 16-bit nanoDAC
 $ENDCMP
@@ -93,6 +99,10 @@ $ENDCMP
 $CMP LTC6702
 D Dual low-power comparator
 F http://cds.linear.com/docs/en/datasheet/6702fa.pdf
+$ENDCMP
+#
+$CMP MTD415T
+D ThorLabs TEC controller
 $ENDCMP
 #
 $CMP S597X
