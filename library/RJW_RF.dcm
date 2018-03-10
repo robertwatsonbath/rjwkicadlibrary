@@ -73,6 +73,14 @@ $CMP LT5534
 D Linear Technology 2.7GHz log detector
 $ENDCMP
 #
+$CMP LTC5576
+D Linear Technology 8GHz active upconverting mixer
+$ENDCMP
+#
+$CMP LTC5577
+D Linear Technology 6GHz active downconverting mixer
+$ENDCMP
+#
 $CMP MGA-62563
 D Avago/Broadcom, current adjustable LNA, 0.1-3.5GHz, 3-5V
 K Agilent, Avago, Broadcom

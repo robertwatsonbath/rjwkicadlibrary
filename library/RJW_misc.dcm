@@ -32,6 +32,10 @@ $CMP AD7991
 D 12-bit, 4-channel ADC in SOT23-8
 $ENDCMP
 #
+$CMP AD9767
+D 125MSPS dual 14-bit TxDAC
+$ENDCMP
+#
 $CMP ADN8834
 D TEC controller
 K TEC, peltier
