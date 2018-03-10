@@ -10,6 +10,11 @@ K log amp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8318.pdf
 $ENDCMP
 #
+$CMP AD8354
+D 1MHz to 2.7GHz RF 20dB gain block
+F http://www.analog.com/en/products/rf-microwave/rf-amplifiers/gain-blocks/ad8354.html
+$ENDCMP
+#
 $CMP ADF4158
 D Analog Devices ADF4158 synthesizer
 $ENDCMP
