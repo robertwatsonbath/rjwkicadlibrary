@@ -22,6 +22,12 @@ $CMP AD5680
 D 18-bit nanoDAC
 $ENDCMP
 #
+$CMP AD630
+D Balanced modulator/demodulator
+K Lock-in-amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD630.pdf
+$ENDCMP
+#
 $CMP AD7980
 D 1Msps 16-bit differential input ADC
 K ADC
