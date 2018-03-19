@@ -60,6 +60,18 @@ $CMP BFCN-1575+
 D Minicircuits, LTCC 1.575GHz BPF
 $ENDCMP
 #
+$CMP HMC311SC70
+D InGaP HBT gain block DC-6GHz, 50R matched
+K RF, amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/hmc311sc70.pdf
+$ENDCMP
+#
+$CMP HMC311ST89
+D InGaP HBT gain block DC-6GHz, 50R matched
+K RF, amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/hmc311st89.pdf
+$ENDCMP
+#
 $CMP LMX2487
 D Texas Instruments, Dual PLL: 1-6GHz Frac-N, 3GHz Int-N.
 K PLL
@@ -88,6 +100,12 @@ $ENDCMP
 #
 $CMP OP184
 D Analog Devices precision 4MHz rail-to-rail op-amp
+$ENDCMP
+#
+$CMP PE43711
+D Attenuator 9kHz-6GHz, 31.75dB, 0.25dB steps
+K RF, attenuator
+F http://www.psemi.com/pdf/datasheets/pe43711ds.pdf
 $ENDCMP
 #
 $CMP PE48820DS

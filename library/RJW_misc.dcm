@@ -68,6 +68,21 @@ $CMP Delayline
 D Delayline 50R
 $ENDCMP
 #
+$CMP LT1722
+D Single 200MHz op-amp
+F http://cds.linear.com/docs/en/datasheet/172234fb.pdf
+$ENDCMP
+#
+$CMP LT1723
+D Dual 200MHz op-amp
+F http://cds.linear.com/docs/en/datasheet/172234fb.pdf
+$ENDCMP
+#
+$CMP LT1724
+D Quad 200MHz op-amp
+F http://cds.linear.com/docs/en/datasheet/172234fb.pdf
+$ENDCMP
+#
 $CMP LT1807
 D Dual 325MHz RRIO low noise op-amp
 F http://cds.linear.com/docs/en/datasheet/18067fc.pdf
