@@ -42,6 +42,11 @@ $CMP AD9767
 D 125MSPS dual 14-bit TxDAC
 $ENDCMP
 #
+$CMP ADA2200
+D Synchronous demodulator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA2200.pdf
+$ENDCMP
+#
 $CMP ADN8834
 D TEC controller
 K TEC, peltier
