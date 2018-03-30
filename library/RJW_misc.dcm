@@ -8,6 +8,11 @@ $CMP +3VA
 K POWER, PWR
 $ENDCMP
 #
+$CMP 74HC9046A
+D PLL with bandgap controlled VCO
+F https://assets.nexperia.com/documents/data-sheet/74HCT9046A.pdf
+$ENDCMP
+#
 $CMP AD4005
 D 1Msps 16-bit differential input ADC Vdd=1.8V
 K ADC
@@ -96,6 +101,11 @@ $ENDCMP
 $CMP LT3080
 D Adjustable 1.1A LDO in DFN-8 and MSOP-8
 K regulator
+$ENDCMP
+#
+$CMP LTC1564
+D Digital PGA and LPF
+F http://cds.linear.com/docs/en/datasheet/1564fa.pdf
 $ENDCMP
 #
 $CMP LTC1864
