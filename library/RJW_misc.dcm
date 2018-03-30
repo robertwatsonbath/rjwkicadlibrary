@@ -43,6 +43,30 @@ $CMP AD7991
 D 12-bit, 4-channel ADC in SOT23-8
 $ENDCMP
 #
+$CMP AD8249
+D Single 40 μA Micropower Instrumentation Amplifier with Zero Crossover Distortion, MSOP-8
+K single instumentation amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8236.pdf
+$ENDCMP
+#
+$CMP AD8421
+D Single Low Power Instrumentation Amplifier, SOIC-8/MSOP-8
+K single instumentation amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8429.pdf
+$ENDCMP
+#
+$CMP AD8422
+D Single High Performance, Low Power, Rail-to-Rail Precision Instrumentation Amplifier, SOIC-8/MSOP-8
+K single instumentation amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8422.pdf
+$ENDCMP
+#
+$CMP AD8429
+D Single Low Noise Instrumentation Amplifier, SOIC-8
+K single instumentation amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8429.pdf
+$ENDCMP
+#
 $CMP AD9767
 D 125MSPS dual 14-bit TxDAC
 $ENDCMP
