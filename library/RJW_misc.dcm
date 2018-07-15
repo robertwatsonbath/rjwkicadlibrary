@@ -165,6 +165,15 @@ D Dual low-power comparator
 F http://cds.linear.com/docs/en/datasheet/6702fa.pdf
 $ENDCMP
 #
+$CMP MCP1640B-SOT23
+D Synchronous boost regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002234D.pdf
+$ENDCMP
+#
+$CMP MCP1824-3002E
+D Fixed LDO, 300mA, 200mV dropout, SOT23-5
+$ENDCMP
+#
 $CMP MTD415T
 D ThorLabs TEC controller
 $ENDCMP
