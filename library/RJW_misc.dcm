@@ -192,6 +192,11 @@ D GI-SPO256-AL2
 K Speech synthesizer
 $ENDCMP
 #
+$CMP SW_square_4.9mm
+D Push button switch, Panasonic 4.9mm
+K switch normally-open pushbutton push-button
+$ENDCMP
+#
 $CMP VCSEL-795
 D Laser diode (second gen)
 K TO-46
