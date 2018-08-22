@@ -183,6 +183,16 @@ $CMP MTD415T
 D ThorLabs TEC controller
 $ENDCMP
 #
+$CMP MUX508
+D 8-way, low capacitance, low charge-injection, precision analogue mux
+F http://www.ti.com/lit/ds/symlink/mux508.pdf
+$ENDCMP
+#
+$CMP OPA320
+D 20-MHz, 0.9-pA, Low-Noise, RRIO CMOS opamp
+F http://www.ti.com/lit/ds/symlink/opa320.pdf
+$ENDCMP
+#
 $CMP S597X
 D Photodiode
 K photodiode diode opto
@@ -200,6 +210,11 @@ $ENDCMP
 $CMP SW_square_4.9mm
 D Push button switch, Panasonic 4.9mm
 K switch normally-open pushbutton push-button
+$ENDCMP
+#
+$CMP TLC6C598
+D Power Logic 8-Bit Shift Register LED Driver
+F http://www.ti.com/lit/ds/symlink/tlc6c598-q1.pdf
 $ENDCMP
 #
 $CMP VCSEL-795
