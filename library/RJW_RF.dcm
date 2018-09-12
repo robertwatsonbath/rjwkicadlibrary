@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ABLNO-V-XXX
+D Abracon ultra-low phase noise  VCXO
+F https://abracon.com/Precisiontiming/ABLNO.pdf
+$ENDCMP
+#
 $CMP AD8302
 D Analog Devices phase/gain detector
 $ENDCMP
@@ -58,6 +63,11 @@ $ENDCMP
 #
 $CMP BFCN-1575+
 D Minicircuits, LTCC 1.575GHz BPF
+$ENDCMP
+#
+$CMP HMC1031
+D 500MHz Integer-N PLL /1, /5, /10.
+F http://www.analog.com/media/en/technical-documentation/data-sheets/hmc1031.pdf
 $ENDCMP
 #
 $CMP HMC311SC70
