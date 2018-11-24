@@ -41,6 +41,11 @@ $CMP ADL5375
 D Analog Devices wideband I/Q modulator
 $ENDCMP
 #
+$CMP ADL5602
+D Analog Devices RF/IF gain block
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adl5602.pdf
+$ENDCMP
+#
 $CMP ADP150-1.8
 D Analog Devices ultra-low-noise LDO
 $ENDCMP
@@ -82,6 +87,10 @@ K RF, amplifier
 F http://www.analog.com/media/en/technical-documentation/data-sheets/hmc311st89.pdf
 $ENDCMP
 #
+$CMP LFCN-5500+
+D Minicircuits, LTCC 5.5GHz LPF
+$ENDCMP
+#
 $CMP LMX2487
 D Texas Instruments, Dual PLL: 1-6GHz Frac-N, 3GHz Int-N.
 K PLL
@@ -120,6 +129,10 @@ $ENDCMP
 #
 $CMP PE48820DS
 D Peregrine Semiconductor 8-bit L-band phase shifter
+$ENDCMP
+#
+$CMP RBP-440+
+D Minicircuits, lumped filter RBP-440+ BPF
 $ENDCMP
 #
 $CMP SKY12329-350LF
