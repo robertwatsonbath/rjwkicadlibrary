@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BF998
+D Low-noise N-channel dual-gate MOSFET, 30mA Id, 12V Vds, SOT-143
+K dual-gate MOSFET
+F https://www.nxp.com/docs/en/data-sheet/BF998.pdf
+$ENDCMP
+#
+#End Doc Library

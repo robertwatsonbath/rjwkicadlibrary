@@ -1,7 +1,84 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +3V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3VA
+K POWER, PWR
+$ENDCMP
+#
+$CMP 74HC9046A
+D PLL with bandgap controlled VCO
+F https://assets.nexperia.com/documents/data-sheet/74HCT9046A.pdf
+$ENDCMP
+#
+$CMP AD4005
+D 1Msps 16-bit differential input ADC Vdd=1.8V
+K ADC
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD4001-4005.pdf
+$ENDCMP
+#
+$CMP AD5662
+D 16-bit nanoDAC
+$ENDCMP
+#
 $CMP AD5680
 D 18-bit nanoDAC
+$ENDCMP
+#
+$CMP AD630
+D Balanced modulator/demodulator
+K Lock-in-amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD630.pdf
+$ENDCMP
+#
+$CMP AD7980
+D 1Msps 16-bit differential input ADC
+K ADC
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7980.pdf
+$ENDCMP
+#
+$CMP AD7991
+D 12-bit, 4-channel ADC in SOT23-8
+$ENDCMP
+#
+$CMP AD8249
+D Single 40 μA Micropower Instrumentation Amplifier with Zero Crossover Distortion, MSOP-8
+K single instumentation amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8236.pdf
+$ENDCMP
+#
+$CMP AD8421
+D Single Low Power Instrumentation Amplifier, SOIC-8/MSOP-8
+K single instumentation amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8429.pdf
+$ENDCMP
+#
+$CMP AD8422
+D Single High Performance, Low Power, Rail-to-Rail Precision Instrumentation Amplifier, SOIC-8/MSOP-8
+K single instumentation amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8422.pdf
+$ENDCMP
+#
+$CMP AD8429
+D Single Low Noise Instrumentation Amplifier, SOIC-8
+K single instumentation amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8429.pdf
+$ENDCMP
+#
+$CMP AD9767
+D 125MSPS dual 14-bit TxDAC
+$ENDCMP
+#
+$CMP ADA2200
+D Synchronous demodulator
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADA2200.pdf
+$ENDCMP
+#
+$CMP ADN8834
+D TEC controller
+K TEC, peltier
 $ENDCMP
 #
 $CMP ADR420
@@ -21,18 +98,141 @@ $CMP ADR425
 D Low noise 10mA 5.0V voltage reference
 $ENDCMP
 #
+$CMP Delayline
+D Delayline 50R
+$ENDCMP
+#
+$CMP LT1722
+D Single 200MHz op-amp
+F http://cds.linear.com/docs/en/datasheet/172234fb.pdf
+$ENDCMP
+#
+$CMP LT1723
+D Dual 200MHz op-amp
+F http://cds.linear.com/docs/en/datasheet/172234fb.pdf
+$ENDCMP
+#
+$CMP LT1724
+D Quad 200MHz op-amp
+F http://cds.linear.com/docs/en/datasheet/172234fb.pdf
+$ENDCMP
+#
+$CMP LT1807
+D Dual 325MHz RRIO low noise op-amp
+F http://cds.linear.com/docs/en/datasheet/18067fc.pdf
+$ENDCMP
+#
+$CMP LT3080
+D Adjustable 1.1A LDO in DFN-8 and MSOP-8
+K regulator
+$ENDCMP
+#
+$CMP LTC1564
+D Digital PGA and LPF
+F http://cds.linear.com/docs/en/datasheet/1564fa.pdf
+$ENDCMP
+#
+$CMP LTC1864
+D 16-bit differential input ADC, high CM voltage
+K ADC
+F http://cds.linear.com/docs/en/datasheet/18645fb.pdf
+$ENDCMP
+#
 $CMP LTC6082
 D Quad precision op-amp
 F http://cds.linear.com/docs/en/datasheet/60812fd.pdf
 $ENDCMP
 #
-$CMP SPO256
+$CMP LTC6240
+D Low noise, low input bias, rail-to-rail output CMOS op-amp (SOT23-5)
+K op amp
+F http://cds.linear.com/docs/en/datasheet/624012fe.pdf
+$ENDCMP
+#
+$CMP LTC6248
+D Quad 180MHz low-power op-amp
+F http://cds.linear.com/docs/en/datasheet/624678fb.pdf
+$ENDCMP
+#
+$CMP LTC6405
+D 2.7GHz, 5V, Low-noise rail-to-rail input differential amplifier/driver
+K linear ltc diff amp
+F http://cds.linear.com/docs/en/datasheet/6405fb.pdf
+$ENDCMP
+#
+$CMP LTC6702
+D Dual low-power comparator
+F http://cds.linear.com/docs/en/datasheet/6702fa.pdf
+$ENDCMP
+#
+$CMP MCP1640B-SOT23
+D Synchronous boost regulator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002234D.pdf
+$ENDCMP
+#
+$CMP MCP1824-3002E
+D Fixed LDO, 300mA, 200mV dropout, SOT23-5
+$ENDCMP
+#
+$CMP MCP73831
+D Single LiPoly charger
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf
+$ENDCMP
+#
+$CMP MTD415T
+D ThorLabs TEC controller
+$ENDCMP
+#
+$CMP MUX508
+D 8-way, low capacitance, low charge-injection, precision analogue mux
+F http://www.ti.com/lit/ds/symlink/mux508.pdf
+$ENDCMP
+#
+$CMP OPA320
+D 20-MHz, 0.9-pA, Low-Noise, RRIO CMOS opamp
+F http://www.ti.com/lit/ds/symlink/opa320.pdf
+$ENDCMP
+#
+$CMP S597X
+D Photodiode
+K photodiode diode opto
+$ENDCMP
+#
+$CMP SMA
+D Generic SMA connector
+$ENDCMP
+#
+$CMP SP0256
 D GI-SPO256-AL2
 K Speech synthesizer
 $ENDCMP
 #
+$CMP SW_square_4.9mm
+D Push button switch, Panasonic 4.9mm
+K switch normally-open pushbutton push-button
+$ENDCMP
+#
+$CMP TLC5916/7
+D 8-channel constant current sink LED driver
+F http://www.ti.com/lit/ds/symlink/tlc5917.pdf
+$ENDCMP
+#
+$CMP TLC6C598
+D Power Logic 8-Bit Shift Register LED Driver
+F http://www.ti.com/lit/ds/symlink/tlc6c598-q1.pdf
+$ENDCMP
+#
+$CMP VCSEL-795
+D Laser diode (second gen)
+K TO-46
+$ENDCMP
+#
 $CMP VREF
 K POWER, PWR
+$ENDCMP
+#
+$CMP XTALOSC
+D Crystal clock oscillator module
 $ENDCMP
 #
 #End Doc Library

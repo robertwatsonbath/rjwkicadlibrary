@@ -1,7 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ABLNO-V-XXX
+D Abracon ultra-low phase noise  VCXO
+F https://abracon.com/Precisiontiming/ABLNO.pdf
+$ENDCMP
+#
 $CMP AD8302
 D Analog Devices phase/gain detector
+$ENDCMP
+#
+$CMP AD8318
+D Log amplifier 70dB 1MHz-8GHz
+K log amp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8318.pdf
+$ENDCMP
+#
+$CMP AD8354
+D 1MHz to 2.7GHz RF 20dB gain block
+F http://www.analog.com/en/products/rf-microwave/rf-amplifiers/gain-blocks/ad8354.html
 $ENDCMP
 #
 $CMP ADF4158
@@ -16,8 +32,18 @@ $CMP ADL5320
 D Analog Devices 250mW RF driver
 $ENDCMP
 #
+$CMP ADL5330
+D Variable gain RF amplifier 3GHz
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADL5330.pdf
+$ENDCMP
+#
 $CMP ADL5375
 D Analog Devices wideband I/Q modulator
+$ENDCMP
+#
+$CMP ADL5602
+D Analog Devices RF/IF gain block
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adl5602.pdf
 $ENDCMP
 #
 $CMP ADP150-1.8
@@ -40,6 +66,36 @@ $CMP ADP150-5.0
 D Analog Devices ultra-low-noise LDO
 $ENDCMP
 #
+$CMP BFCN-1575+
+D Minicircuits, LTCC 1.575GHz BPF
+$ENDCMP
+#
+$CMP HMC1031
+D 500MHz Integer-N PLL /1, /5, /10.
+F http://www.analog.com/media/en/technical-documentation/data-sheets/hmc1031.pdf
+$ENDCMP
+#
+$CMP HMC311SC70
+D InGaP HBT gain block DC-6GHz, 50R matched
+K RF, amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/hmc311sc70.pdf
+$ENDCMP
+#
+$CMP HMC311ST89
+D InGaP HBT gain block DC-6GHz, 50R matched
+K RF, amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/hmc311st89.pdf
+$ENDCMP
+#
+$CMP LFCN-5500+
+D Minicircuits, LTCC 5.5GHz LPF
+$ENDCMP
+#
+$CMP LMX2487
+D Texas Instruments, Dual PLL: 1-6GHz Frac-N, 3GHz Int-N.
+K PLL
+$ENDCMP
+#
 $CMP LT1761-X
 D Linear Tech ultra-low-noise LDO
 $ENDCMP
@@ -48,12 +104,35 @@ $CMP LT5534
 D Linear Technology 2.7GHz log detector
 $ENDCMP
 #
+$CMP LTC5576
+D Linear Technology 8GHz active upconverting mixer
+$ENDCMP
+#
+$CMP LTC5577
+D Linear Technology 6GHz active downconverting mixer
+$ENDCMP
+#
+$CMP MGA-62563
+D Avago/Broadcom, current adjustable LNA, 0.1-3.5GHz, 3-5V
+K Agilent, Avago, Broadcom
+$ENDCMP
+#
 $CMP OP184
 D Analog Devices precision 4MHz rail-to-rail op-amp
 $ENDCMP
 #
+$CMP PE43711
+D Attenuator 9kHz-6GHz, 31.75dB, 0.25dB steps
+K RF, attenuator
+F http://www.psemi.com/pdf/datasheets/pe43711ds.pdf
+$ENDCMP
+#
 $CMP PE48820DS
 D Peregrine Semiconductor 8-bit L-band phase shifter
+$ENDCMP
+#
+$CMP RBP-440+
+D Minicircuits, lumped filter RBP-440+ BPF
 $ENDCMP
 #
 $CMP SKY12329-350LF
