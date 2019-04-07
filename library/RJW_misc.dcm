@@ -13,6 +13,18 @@ D PLL with bandgap controlled VCO
 F https://assets.nexperia.com/documents/data-sheet/74HCT9046A.pdf
 $ENDCMP
 #
+$CMP 74LV1T126
+D Single supply translating buffer/driver with tri-state
+K buffer, translator
+F https://assets.nexperia.com/documents/data-sheet/74LV1T126.pdf
+$ENDCMP
+#
+$CMP 74LV1T34
+D Single supply translating buffer/driver
+K buffer, translator
+F https://assets.nexperia.com/documents/data-sheet/74LV1T34.pdf
+$ENDCMP
+#
 $CMP AD4005
 D 1Msps 16-bit differential input ADC Vdd=1.8V
 K ADC
@@ -200,6 +212,18 @@ $ENDCMP
 #
 $CMP SMA
 D Generic SMA connector
+$ENDCMP
+#
+$CMP SN65LVDS1
+D LVTTL to LVDS line driver
+K driver, lvds
+F http://www.ti.com/lit/ds/symlink/sn65lvds1.pdf
+$ENDCMP
+#
+$CMP SN65LVDS2
+D LVTTL to LVDS line driver
+K driver, lvds
+F http://www.ti.com/lit/ds/symlink/sn65lvds1.pdf
 $ENDCMP
 #
 $CMP SP0256
