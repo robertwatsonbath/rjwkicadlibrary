@@ -28,6 +28,11 @@ $CMP ADF4159
 D Analog Devices ADF4159 synthesizer
 $ENDCMP
 #
+$CMP ADF4351
+D Wideband synthesizer with integrated VCO
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADF4351.pdf
+$ENDCMP
+#
 $CMP ADL5320
 D Analog Devices 250mW RF driver
 $ENDCMP
