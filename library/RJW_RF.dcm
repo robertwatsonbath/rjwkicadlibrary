@@ -109,6 +109,11 @@ $CMP LT5534
 D Linear Technology 2.7GHz log detector
 $ENDCMP
 #
+$CMP LTC5510
+D Linear Technology 1MHz-6GHz wideband active mixer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/5510fa.pdf
+$ENDCMP
+#
 $CMP LTC5576
 D Linear Technology 8GHz active upconverting mixer
 $ENDCMP
