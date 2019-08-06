@@ -28,6 +28,11 @@ $CMP ADF4159
 D Analog Devices ADF4159 synthesizer
 $ENDCMP
 #
+$CMP ADF4351
+D Wideband synthesizer with integrated VCO
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADF4351.pdf
+$ENDCMP
+#
 $CMP ADL5320
 D Analog Devices 250mW RF driver
 $ENDCMP
@@ -102,6 +107,11 @@ $ENDCMP
 #
 $CMP LT5534
 D Linear Technology 2.7GHz log detector
+$ENDCMP
+#
+$CMP LTC5510
+D Linear Technology 1MHz-6GHz wideband active mixer
+F https://www.analog.com/media/en/technical-documentation/data-sheets/5510fa.pdf
 $ENDCMP
 #
 $CMP LTC5576
