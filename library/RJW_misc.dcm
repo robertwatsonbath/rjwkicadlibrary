@@ -236,7 +236,7 @@ D Push button switch, Panasonic 4.9mm
 K switch normally-open pushbutton push-button
 $ENDCMP
 #
-$CMP TLC5916/7
+$CMP TLC5916_7
 D 8-channel constant current sink LED driver
 F http://www.ti.com/lit/ds/symlink/tlc5917.pdf
 $ENDCMP
