@@ -92,6 +92,12 @@ K RF, amplifier
 F http://www.analog.com/media/en/technical-documentation/data-sheets/hmc311st89.pdf
 $ENDCMP
 #
+$CMP HMC788A
+D InGaP HBT gain block DC-6GHz, 50R matched
+K RF, amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/hmc311sc70.pdf
+$ENDCMP
+#
 $CMP LFCN-5500+
 D Minicircuits, LTCC 5.5GHz LPF
 $ENDCMP
